@@ -4,7 +4,8 @@
 if ! [ $(id -u) = 0 ]; then echo "Please run this script as sudo or root"; exit 1 ; fi
 
 # Version number of Guacamole to install
-GUACVERSION="1.4.0"
+# Change "1.4.0" to "1.5.0" for updating to Apache Guacamole 1.5.0 (only tested with Ubuntu 20.04)
+GUACVERSION="1.5.0"
 
 # Colors to use for output
 YELLOW='\033[1;33m'
